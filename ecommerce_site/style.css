@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+button{
+    border-radius: 10px;
+    transition: all 400ms ease;
+}
+a{
+    transition: all 400ms ease;
+}
+a:hover{
+    color: rgb(32, 61, 80);
+    transition: all 400ms ease;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: all 400ms ease;
+    z-index: 2;
+}
+.card:hover {
+    transition: all 400ms ease;
+    transform: translateY(-10px);
+    z-index: 2;
+}
+
+.logo {
+    width: 7%;
+    height: 7%;
+}
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: contain; /*prevents img from squeezing*/
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.admin_img {
+    width: 100px;
+    object-fit: contain;
+}
+
+#insert-product {
+    margin-top: 20px;
+    align-items: center;
+}
+
+#dropdown-select {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cart-img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain; /*prevents pages and img from squeezing*/
+}
+
+.profile_img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: block;
+    object-fit: contain;
+}
+.edit_image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
